@@ -33,7 +33,7 @@ document.querySelector('.check').addEventListener('click', function () {
       highscore = score;
       document.querySelector('.highscore').textContent = highscore;
     }
-    //when guess is too high
+    //using ternary operator for two operations
   } else if (guess !== secretNumber) {
     if (score > 1) {
       document.querySelector('.message').textContent =
